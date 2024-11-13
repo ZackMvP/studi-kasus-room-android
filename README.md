@@ -1,29 +1,11 @@
 Inventory app
 ==================================
 
-Solution code for Android Basics with Compose.
+Aplikasi sederhana guna mempelajari sistem Room milik Android.
 
 Introduction
 ------------
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
-
-Pre-requisites
---------------
-
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
-
-
-Getting Started
----------------
-
-1. Download and run the app.
+Aplikasi merupakan suatu aplikasi pelacak penyimpanan barang. Fungsi yang telah diimplementasikan ada menambahkan data, mengupdate data, menghapus data, dan mendapatkan data. Sistem penyimpanan yang digunakan adalah penyimpanan lokal perangkat. Aplikasi mencapai fitur-fitur tersebut dengan menggunakan fitur Room database dari Android. Dalam aplikasi, juga terdapat kelas ViewMode, Flow, dan Navigation.
+  
+Seluruh kredit aplikasi dimiliki oleh Google Developers Training Team selaku pembuat projek. Penulis hanya memberikan penjelasan terhadap aplikasi dalam bentuk komentar.
