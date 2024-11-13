@@ -18,6 +18,11 @@ package com.example.inventory.data
 
 import kotlinx.coroutines.flow.Flow
 
+/**
+ * OfflineItemsRepository merupakan repository utama dimana perintah DAO akan dijalankan pada apliksi.
+ * Kurang lebih digunakan agar aplikasi tidak berinteraksi secara langsung ke DAO
+ * Inisasi kelas dilakukan dengan memanggil interface ItemsRepository
+ */
 class OfflineItemsRepository(private val itemDao: ItemDao) : ItemsRepository {
     override fun getAllItemsStream(): Flow<List<Item>> = itemDao.getAllItems()
 
